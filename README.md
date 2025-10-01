@@ -1,7 +1,3 @@
-# time-series-data-analysis
-Integrating time series data analysis and machine learning into supply chain management
-Required libraries:
-
 # LSTM Time Series Anomaly Detection - Requirements
 # Python 3.11.0 Environment
 
@@ -34,24 +30,23 @@ tqdm>=4.65.0
 pathlib2>=2.3.7
 
 # Optional: GPU Support (uncomment if using CUDA)
-# torch-audio>=2.0.0
-# torchaudio>=2.0.0
+torch-audio>=2.0.0
+torchaudio>=2.0.0
 
 # Optional: Advanced Time Series
-# prophet>=1.1.0
-# ruptures>=1.1.0
+prophet>=1.1.0
+ruptures>=1.1.0
 
 # Optional: Hyperparameter Optimization
-# optuna>=3.2.0
-# ray[tune]>=2.5.0
+optuna>=3.2.0
+ray[tune]>=2.5.0
 
 # Optional: Model Interpretability
-# shap>=0.42.0
-# lime>=0.2.0
-
-# Optional: Experiment Tracking
-# wandb>=0.15.0
-# mlflow>=2.5.0
+shap>=0.42.0
+lime>=0.2.0
+#Optional: Experiment Tracking
+wandb>=0.15.0
+mlflow>=2.5.0
 
 # Development & Testing
 pytest>=7.4.0
